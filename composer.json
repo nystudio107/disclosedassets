@@ -1,0 +1,14 @@
+{
+	"name": "nystudio107/disclosedassets",
+	"description": "Allow your clients to find asset sub-folders by disclosing them by default",
+	"type": "craft-plugin",
+	"authors": [
+		{
+			"name": "nystudio107",
+			"homepage": "https://nystudio107.com"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}
