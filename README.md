@@ -34,6 +34,8 @@ To use it, just install it, and enjoy happy clients.
 
 Tip: to *create* sub-folders, Control- or right-click on the Asset source name.
 
+![Screenshot](resources/screenshots/subfolder-creation.png)
+
 ## Disclosed Assets Roadmap
 
 Some things to do, and ideas for potential features:
