@@ -36,6 +36,15 @@ Tip: to *create* sub-folders, Control- or right-click on the Asset source name.
 
 ![Screenshot](resources/screenshots/subfolder-creation.png)
 
+If you're using something like [craft-cpjs](https://github.com/lindseydiloreto/craft-cpjs), you can just add this line to your included AdminCP JavaScript to achieve the same effect that Disclosed Assets offers:
+
+```
+    $(document).ready(function() {
+        $('div .toggle').parent('li').addClass('expanded');
+    });
+
+```
+
 ## Disclosed Assets Roadmap
 
 Some things to do, and ideas for potential features:
