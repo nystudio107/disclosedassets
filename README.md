@@ -40,7 +40,7 @@ If you're using something like [craft-cpjs](https://github.com/lindseydiloreto/c
 
 ```
     $(document).ready(function() {
-        $('div .toggle').parent('li').addClass('expanded');
+        $('div .toggle').click();
     });
 
 ```

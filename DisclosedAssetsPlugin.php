@@ -27,7 +27,6 @@ class DisclosedAssetsPlugin extends BasePlugin
                 craft()->templates->includeJsResource('disclosedassets/js/disclosedassets.js');
             }
         }
-
     }
 
     /**
@@ -67,7 +66,7 @@ class DisclosedAssetsPlugin extends BasePlugin
      */
     public function getVersion()
     {
-        return '1.0.0';
+        return '1.0.1';
     }
 
     /**
