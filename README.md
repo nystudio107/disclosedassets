@@ -39,10 +39,21 @@ Tip: to *create* sub-folders, Control- or right-click on the Asset source name.
 If you're using something like [craft-cpjs](https://github.com/lindseydiloreto/craft-cpjs), you can just add this line to your included AdminCP JavaScript to achieve the same effect that Disclosed Assets offers:
 
 ```
-    $(document).ready(function() {
-        $('div .toggle').click();
-    });
-
+// Disclose the all the things!
+$(document).ready(function() {
+    var toggleState = false;
+    $('div .toggle').click();
+    window.setTimeout(function(event) {
+        if (Garnish.Modal.visibleModal) {
+            if (!toggleState) {
+                $('div .toggle').click();
+                toggleState = true;
+            }
+        } else {
+            toggleState = false;
+        }
+    }, 1000);
+});
 ```
 
 ## Disclosed Assets Roadmap
